@@ -1,0 +1,55 @@
+/* STYLES */
+
+body{
+    background-color: rgb(254, 238, 205);
+    color:rgb(103, 78, 45);
+    maxwidth: 650px;
+    margin-left: 80px;
+    margin-right: 100px;
+    font-family: "DM Serif", sans-serif;
+}
+
+
+h1{
+    font-size: 60px;
+    line-height: 120%;
+    font-family: "DM Serif", serif;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "DM Serif", sans-serif;
+    border-width: 2px;
+    border-style: double;
+}
+
+a{
+    color:inherit;
+    /* color:inherit; to use a color that was previously used, eg: the brown type in this file */
+    text-decoration:none;
+    border: 1px solid rgb(103, 78, 45);
+    border-radius: 16px;
+    padding-left:6px;
+    padding-right:6px;
+    transition:0.5s;
+}
+
+a:hover {
+    color: rgb(246, 236, 216);
+    background-color: rgb(78, 60, 37);
+}
+
+
+/* In CSS, class selectors start with a dot, unlike elements. Don't use the dot for html. */
+.center-style{
+    display: block;
+    text-align: center;
+}
+
+/* have styles for everything, the ul (unordered list), paragraphs, etc. */
+
+div{
+    width:150px;
+}
+
